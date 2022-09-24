@@ -1,0 +1,27 @@
+{
+  "name": "comp229.005",
+  "version": "1.0.0",
+  "description": "COMP229.005 COde Example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuvu94/COMP229.005.git"
+  },
+  "keywords": [
+    "COMP229.005",
+    "NodeJS",
+    "Express",
+    "EJS",
+    "MongoDB",
+    "MEAN"
+  ],
+  "author": "Thu Vu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thuvu94/COMP229.005/issues"
+  },
+  "homepage": "https://github.com/thuvu94/COMP229.005#readme"
+}
