@@ -1,0 +1,16 @@
+
+h2
+{
+    color:#641224;
+    font-size: large;
+}
+.box
+{
+    background-color: #fcedf0;
+    border: 1px dotted #641224;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #f59cad;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}

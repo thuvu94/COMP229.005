@@ -1,0 +1,29 @@
+<% include partials/header.ejs %>
+<link rel="stylesheet" href="/stylesheets/contact.css" type="text/css">
+<h2><%= title %></h2>
+<p>Should you have any questions, please contact me at tvu92@my.centennialcollege.ca or fill out the form below.</p> 
+<form action="/">
+<table>
+    <tr>
+        <td class="title">First Name</td>
+        <td><input type="text" name="txtFName" size="30" tabindex="1"></td>
+        <td class="title">Last Name</td>
+        <td><input type="text" name="txtLName" size="30" tabindex="3"></td>
+    </tr>
+    <tr>
+        <td class="title">Phone Number</td>
+        <td><input type="text" name="txtPhone" size="30" placeholder="xxx-xxx-xxxx" tabindex="5"></td>
+        <td class="title">Email</td>
+        <td><input type="email" name="txtEmail" size="30" placeholder="xxxxx@domainname.ca" tabindex="7"></td>
+    </tr>
+    <tr>
+        <td class="title">Requests</td>
+        <td colspan="3"><textarea name="txtOther" cols="90" rows="4" placeholder="---Please note down your requests here---" tabindex="9"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="4">
+        <input type="submit" name="btnSubmit" value="Submit" tabindex="33">
+        </td>   
+</table>
+</form>
+<% include partials/footer.ejs %>
