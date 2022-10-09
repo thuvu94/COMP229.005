@@ -1,0 +1,16 @@
+/* Thi Thanh Thu Vu - 301239282 - Oct 1, 2022 */
+/* Styling for Projects Page */
+
+fieldset
+{
+    margin: 10px;
+}
+legend
+{
+    font-weight: bold;
+    font-style: italic;
+}
+td
+{
+    padding: 10px;
+}
