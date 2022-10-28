@@ -1,0 +1,30 @@
+<% include partials/header.ejs %>
+
+<main class="container">
+    <table>
+        <tr>
+            <td colspan="5"><a href="/business/add">Add New Contact</a></td>
+        </tr>
+        <tr>
+            <td>Contact Name</td>
+            <td>Contact Number</td>
+            <td>Email</td>
+            <td colspan="2">Actions</td>
+        </tr>
+
+        <!-- Repeatable Template Row -->
+
+        <% for (let i = 0; i < BusinessList.length; i++) { %>
+            <tr>
+                <td><%= BusinessList[i].contactName %></td>
+                <td><%= BusinessList[i].contactNumber %></td>
+                <td><%= BusinessList[i].email %></td>
+                <td><a href="/business/edit">Edit</a></td>
+                <td><a href="/business/delete">Delete</a></td>
+            </tr>
+        <% } %>
+    </table>
+</main>
+
+
+<% include partials/footer.ejs %>
